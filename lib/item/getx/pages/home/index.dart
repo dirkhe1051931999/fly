@@ -100,6 +100,33 @@ class HomeView extends StatelessWidget {
             subtitle: const Text('Get.toNamed("/home/stateGetx")'),
             onTap: () => Get.toNamed('/home/stateGetx'),
           ),
+          ListTile(
+            title: const Text("stateGetBuilder"),
+            subtitle: const Text('Get.toNamed("/home/stateGetBuilder")'),
+            onTap: () => Get.toNamed('/home/stateGetBuilder'),
+          ),
+          ListTile(
+            title: const Text("stateValueBuilder"),
+            subtitle: const Text('Get.toNamed("/home/stateValueBuilder")'),
+            onTap: () => Get.toNamed('/home/stateValueBuilder'),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text("stateWorks"),
+            subtitle: const Text('Get.toNamed("/home/stateWorks")'),
+            onTap: () => Get.toNamed('/home/stateWorks'),
+          ),
+          const Divider(),
+          ListTile(
+            title: const Text("dependencyPutFind"),
+            subtitle: const Text('Get.toNamed("/home/dependencyPutFind")'),
+            onTap: () => Get.toNamed('/home/dependencyPutFind'),
+          ),
+          ListTile(
+            title: const Text("dependencyLazyPut"),
+            subtitle: const Text('Get.toNamed("/home/dependencyLazyPut")'),
+            onTap: () => Get.toNamed('/home/dependencyLazyPut'),
+          ),
         ],
       ),
     );

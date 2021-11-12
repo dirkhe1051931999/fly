@@ -10,4 +10,9 @@ abstract class AppRoutes {
   static const my = '/my';
   static const stateObx = '/stateObx';
   static const stateGetx = '/stateGetx';
+  static const stateGetBuilder = '/stateGetBuilder';
+  static const stateValueBuilder = '/stateValueBuilder';
+  static const stateWorks = '/stateWorks';
+  static const dependencyPutFind = '/dependencyPutFind';
+  static const dependencyLazyPut = '/dependencyLazyPut';
 }
